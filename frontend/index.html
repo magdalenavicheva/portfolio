@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+        <title>Magdalena Vicheva</title>
+        <meta
+            name="description"
+            content="Magdalena Vicheva, software engineering student at Fontys Eindhoven, looking for a software engineering internship. Java Spring Boot, C#/.NET and React projects for BAS World, Driessen and CGI."
+        />
+        <meta name="theme-color" content="#3b4520" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Magdalena Vicheva · Software engineering student" />
+        <meta
+            property="og:description"
+            content="Full-stack projects with Spring Boot, .NET and React. Looking for a software engineering internship."
+        />
+        <meta property="og:image" content="/og-image.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <script>
+            // Apply the saved light setting before first paint, so there is no flash.
+            try {
+                var saved = localStorage.getItem("mv-theme")
+                if (saved === "light" || saved === "dark") document.documentElement.setAttribute("data-theme", saved)
+            } catch (e) {}
+        </script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/src/main.tsx"></script>
+    </body>
+</html>
